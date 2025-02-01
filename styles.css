@@ -1,1 +1,64 @@
 /* your code here */
+.top{
+	display:flex ;
+	justify-content:space-between;
+	align-items:center;
+	padding:20px;
+}
+
+.logo_name{
+	color:white;
+	font-size:30px;
+}
+.icons{ 
+	width:45px;
+	height:45px;
+	background:white;
+	border-radius: 50%;
+	align-content:center;
+	text-align:center;
+	margin-left:10px;
+	cursor:pointer;
+}
+.content {
+	background: rgb(0,0,0);
+	width:100%;
+	height:300px;
+}
+.bottom-details{
+	background:rgb(44,48,58);
+	width:100%;
+	height:60px;
+}
+
+/* MENU of Links */
+.link-boxes{
+	display:flex;
+	justify-content:space-around;
+	margin-top:30px;
+}
+.menu-links{
+   text-decoration:none;
+	font-size:19px;
+	color:white;
+	border-bottom: 2px solid white;
+}
+.hero-menu{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.home-menu {
+	margin-left:80px;
+}
+.home-menu  p{
+	color:white;	
+}
+
+.bottom-details{
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	color:#fefef8;
+}
